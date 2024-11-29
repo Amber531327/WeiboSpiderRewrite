@@ -29,6 +29,6 @@ public class WeiboTest {
 
         // 创建 Weibo 对象并传入 Properties 对象
         Weibo weibo = new Weibo(config);
-        weibo.buildWeiboParams(1);
+        weibo.userToCsv();
     }
 }
